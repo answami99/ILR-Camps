@@ -1,26 +1,57 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gramin Seva Shivir - Followup</title>
-    <style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-            overflow: hidden; 
-            background-color: #f4f6f9; /* Matches your dashboard background */
-        }
-        iframe {
-            width: 100%;
-            height: 100%;
-            border: none;
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bikaner ILR Camps Dashboard</title>
+  <style>
+    html, body {
+      margin: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      font-family: Arial, sans-serif;
+    }
+
+    .direct-link {
+      padding: 8px 12px;
+      text-align: center;
+      background: #f5f5f5;
+      color: #222;
+      font-size: 14px;
+    }
+
+    .direct-link a {
+      color: #174ea6;
+      font-weight: 600;
+    }
+
+    iframe {
+      display: block;
+      flex: 1;
+      width: 100%;
+      min-height: 0;
+      border: 0;
+    }
+  </style>
 </head>
 <body>
-    <!-- Replace the URL below with your Google Apps Script URL -->
-    <iframe src="https://script.google.com/macros/s/AKfycbxDFuuMWiZnFiV75fKH4DF-R4CK52ugect3DX5DMvYJh5hm6a5xzBnYtyMu6eQs0qES/exec"></iframe>
+  <div class="direct-link">
+    Having trouble downloading a PDF on your phone?
+    <a
+      href="https://script.google.com/macros/s/AKfycbxDFuuMWiZnFiV75fKH4DF-R4CK52ugect3DX5DMvYJh5hm6a5xzBnYtyMu6eQs0qES/exec"
+      target="_blank"
+      rel="noopener"
+    >Open the dashboard directly</a>
+  </div>
+
+  <iframe
+    src="https://script.google.com/macros/s/AKfycbxDFuuMWiZnFiV75fKH4DF-R4CK52ugect3DX5DMvYJh5hm6a5xzBnYtyMu6eQs0qES/exec"
+    title="Bikaner ILR Camps Dashboard"
+  ></iframe>
 </body>
 </html>
